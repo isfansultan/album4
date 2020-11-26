@@ -1,0 +1,183 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.firstbox{
+    background-color: rgb(52, 64, 70);
+    height: 60px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.buttonbox{
+    border: 0.5px solid white;
+    width: 40px;
+    height: 30px;
+    border-radius: 4px;
+    position: flex;
+    margin-right: 100px;
+}
+.line{
+    background-color: white;
+    width: 20px;
+    height: 1.33px;
+    margin-top: 6.5px;
+    margin-left: 10px;
+}
+img{
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+}
+.album{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.bigbox{
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 410px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.bigtext{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 20px;
+    margin-top: 0px;
+    color: rgb(156, 153, 153);
+    font-weight: 40;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    height: 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+.button1{
+    background-color: rgb(36, 96, 226);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    margin-right: 2px;
+}
+.button2{
+    background-color: grey;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 2px;
+}
+.otherbigbox{
+    background-color: rgb(235, 231, 231);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    background-color:white;
+    margin: 10px 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 4px;
+    
+}
+.thumbnail{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 125px 100px;
+    background-color: rgb(52, 64, 70);
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+.pthumb{
+padding: 0px;
+margin: 0px;
+}
+.pwilder{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.view-edit-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 11px;
+    text-align: center;
+    color: rgb(52, 64, 70);
+}
+.view{
+    width: 40px;
+    height: 20px;
+    border: 0.5px solid rgb(52, 64, 70);
+    border-radius: 4px 0px 0px 4px;
+    padding-top: 5px;
+}
+.edit{
+    width: 40px;
+    height: 20px;
+    border-radius: 0px 4px 4px 0px;
+    border: 0.5px solid rgb(52, 64, 70);
+    padding-top: 5px;
+}
+.mins{
+    margin-left: 250px;
+    width: 40px;
+    height: 20px;
+    margin-top: 5px;
+}
+footer{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    
+}
+.firstfoot{
+    height: 70px;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding-left: 40px;
+}
+.secondfooter{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35%;
+    padding-right: 40px;
+}
